@@ -11,7 +11,7 @@ import fr.afpa.models.VgPizza;
 import fr.afpa.models.AnanasPizza;
 
 
-public class ClassicPizzaFactory {
+public class ClassicPizzaFactory extends PizzaFactory {
 
     // final pour toujours pointer vers cette map meme si on enleve ou rajoute des éléments
     //Supplier : Interface Java qui ne prends rien en entrée et retourne un objet de type T
